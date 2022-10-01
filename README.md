@@ -1,5 +1,35 @@
 # Predicting Company Performance Using Anonymous Employee Reviews
 
+## Abstract
+Forecasting an organization's growth is critical for investors to make timely choices in order to optimize profits. To that purpose, investors utilize alternative data from other parties to forecast a company's success before it releases its quarterly financial reports. Employee evaluations may be indicative of a firm's performance in the sense that employee happiness may be directly tied to corporate productivity. In this paper, we analyzed the reviews of three companies: Home Depot, General Electric, and Meta. We created various models for each company since each company has unique intrinsic complexity.  We used different machine learning algorithms for each organization and examined which model was best suited to that company. We discovered that our models were predictive of corporate performance for some but not all companies. When we used the Decision Tree method, we got the best results for Meta, with an accuracy of 80%. As a result, we concluded that Glassdoor reviews can forecast company success and serve as an alternate data source.
+
+## Process
+![image](https://user-images.githubusercontent.com/58848482/193426257-1eb36d0e-5606-4b29-8b7e-26d665f22576.png)
+<ol>
+<li>
+Data Collection and Understanding
+  <ol>
+   <li>Feature Selection and Data Visualization</li>
+  </ol>
+</li>
+  
+<li>
+Data preprocessing and preparation
+<ol>
+   <li>Data Preprocessing</li>
+   <li>Sentiment analysis using VADER</li>
+   <li>Feature engineering through text analysis</li>
+   <li>Developing a predictive column</li>
+  </ol>
+</li>
+<li>Modeling and finding best model for each company</li>
+</ol>
+
+
+## Results
+In this work, we made different models for Home Depot, General Electric and Meta as different companies have different inherent intricacies specific to that company. We utilized multiple machine learning algorithms for each of the companies and analyzed which model is suitable to that specific company. We found that our models were predictive of the company performance for some companies, but not for all. The best result we obtained was for Meta, with an accuracy of 80% when the algorithm was Decision Tree. Therefore, we can conclude that Glassdoor reviews can be predictive of company performance and can be used as an alternative data source. 
+
+# Instructions to run code
 ## 1. Data Collection -
 
 ### a. Glassdoor Web Scraper
@@ -63,3 +93,4 @@ All the processes with different model are listed in the 'process' folder
 <li>Change the input csv files in the processes and run the code</li>
 <li>It will give the model design and performance details of that model</li>
 </ol>
+
